@@ -134,7 +134,7 @@
 
 }
 @media only screen and (max-width:768px){
-    .w-33-3{ width: 33.33%;
+    .w-33-3{ width: 22.33%;
     padding: -114px 100px;
     
     width: 100%;}
@@ -167,3 +167,39 @@
 
 }
 
+@media only screen and (max-width:1920px){
+    .card-img{
+        text-align: center;
+        transform: translateZ(40px);
+    }
+    .card-contener{
+        text-align: center;
+    }
+
+    .w-33-3{
+
+        width: 22.33%;
+        padding: 0 60px;
+        float: left;
+    }
+#dib{
+    left: 235px;
+}
+   
+}
+
+
+@media only screen and (max-width:1280px){
+    .w-33-3{
+        width: 33.33%;
+    }
+
+    .card-contener{
+        text-align: center;
+    }
+
+    #dib{
+        left: 235px;
+    }
+
+}
