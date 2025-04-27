@@ -8,6 +8,7 @@ let marufIndex=0;
 const showsliders=(index)=>{
 document.getElementById("slides");
 const total=slides.children.length
+console.log(total)
 
 if(index>=total){
 marufIndex = 0;
