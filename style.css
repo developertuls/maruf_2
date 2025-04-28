@@ -16,6 +16,7 @@ height: 100vh;
     height: 400px;
     overflow: hidden;
     border-radius: 10px;
+    box-shadow: -2px 18px 13px #0000006a;
  /* border: 40px solid #192a56;   */
 } 
  
@@ -65,6 +66,9 @@ box-shadow: 10px 10px 5px #add8e6;
 }
 p{
   padding: 4px;
+}
+.pp{
+  color: #00000075;
 }
 
 
