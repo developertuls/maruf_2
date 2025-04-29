@@ -1,18 +1,12 @@
 @media only screen and (max-width:360px)  {
-.bgg{
-    box-shadow: none;
-}
-.slider{
-    margin: auto;
-}
+
+
 }
 
-@media only screen and (max-width:375px)  {
-.bgg{
-    box-shadow: none;
+@media only screen and (max-width:1920px)  {
+.over{
+    width: 100%;
+    text-align: center;
 }
-.slider{
-    margin: auto;
-    padding: 20px;
-}
+
 }
