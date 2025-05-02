@@ -6,7 +6,7 @@ display: flex;
 justify-content: center;
 align-items: center;
 height: 100vh;
-background-color: #004451;
+/* background-color: #004451; */
  /* background-image: linear-gradient(#1B1464,#833471);   */
 
 } 
@@ -24,7 +24,7 @@ background-color: #004451;
  .slides{
     min-width: 100%;
       height: 100%; 
-
+text-justify: ;
     display: flex;
    transition: transform 0.5s ease-in-out;
 } 
@@ -49,33 +49,28 @@ button{
     color: #347062;
     cursor: pointer;
 }
-button:hover{
-    background: rgba(0, 0, 0, 0.5);
-     color: #fff; 
-}  
 
-.c{
-    background:#27b6e6; 
-}
+
+
 .bgg{
   background-image:linear-gradient(to left,rgb(0, 68, 81,0.9),rgb(0, 68, 81,0.1),rgb(0, 68, 81)); 
 /* background-image:linear-gradient(to right,rgb(15, 101, 107,0.9),rgba(20, 154, 136, 0.464)); */
 
 /* background-image: url(img/s7.jpg); */
-box-shadow: 10px 70px 9px rgb(0, 68, 81,0.5);
+/* box-shadow: 18px 4px 5px rgba(134, 227, 246, 0.702); */
 
 /* float: left; */
 /* perspective: 1000px; */
 
 }
 
-.pp{
-  color: #00000075;
-}
 
-  .over{
+
+  .imm{
   background-image:url(img/sh3.jpg) ;
-  background-position:center ;
+
+
+background-position: ;
   background-repeat: no-repeat;
   background-size: contain;
   }  
@@ -83,19 +78,41 @@ box-shadow: 10px 70px 9px rgb(0, 68, 81,0.5);
 .bo{
   /* background-image:linear-gradient(to right,#0f656b,#1d4349); */
 }
-/* .bo::before{
+ .im::before{
   content: "";
   display: block;
   position: absolute;
   width: 100%;
+ 
+ 
   height: 100vh;
-  margin-left: 190px;
-  background-image:linear-gradient(to right,rgb(15, 101, 107,0.5),#1d4349);
-    background-image:linear-gradient(rgb(15, 101, 107,0.9),rgb(29, 67, 73,0.5)); 
-}  */
+  /* margin-left: 190px; */
+b
+    /* background-image:linear-gradient(rgb(15, 101, 107,0.9),rgb(29, 67, 73,0.5));  */
+}  
 
 
 
 .bm{
   box-shadow: 10px 70px 9px rgb(0, 68, 81,0.5);
 }
+
+button :hover{
+  /* background: #347062; */
+}
+
+.dd{
+
+  background-color:rgb(0, 68, 81,0.9);
+}
+
+/* .vv{
+  background-image:linear-gradient(to right,rgb(15, 101, 107,0.0),rgb(29, 67, 73,0.5),rgb(25, 42, 86,0.9));
+} */
+
+.vv{
+  background-image: linear-gradient(to left,rgb(0, 68, 81,0.9),rgb(0, 68, 81,0.6),rgb(213, 224, 34,0.6),#004451);
+}
+
+
+

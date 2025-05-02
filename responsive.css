@@ -1,12 +1,47 @@
-@media only screen and (max-width:360px)  {
+ @media only screen and (max-width:312px)  {
+.fff{
+    /* margin-top: -398px; */
+    /* margin-left: 38px; */
 
-
+}
+.text{
+    color: #fff;
+}
 }
 
 @media only screen and (max-width:1920px)  {
-.over{
-    width: 100%;
-    text-align: center;
-}
+    .imm{
+        background-image:url(img/sh3.jpg) ;
+      
+        
+        background-repeat: no-repeat;
+        background-size:contain ;
+        } 
 
 }
+@media only screen and (max-width:375px)  {
+  
+    .imm{
+        background-image:url(img/sh3.jpg) ;
+        background-position:center;
+        background-repeat: no-repeat;
+        background-size:contain;
+        } 
+
+        .bg{
+            /* margin-top: 80px; */
+            background: #004451;
+        }
+        
+.bg{
+    /* background: #004451; */
+}
+
+
+   
+
+  
+    
+}
+
+
